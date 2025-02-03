@@ -54,3 +54,16 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 구현 |  <a href="https://www.acmicpc.net/problem/21608">상어 초등학교</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/1629">곱셈</a> | <a href="">🔗</a> |
 <br>
+
+
+
+### Week 03 (25.02.03 ~ 25.02.09)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1931">회의실 배정</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/16236">아기상어</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/15649">N과 M (1)</a> | <a href="">🔗</a> |
+| Dp |  <a href="https://www.acmicpc.net/problem/2629">양팔저울</a> | <a href="">🔗</a> |
+<br>
+=======
+

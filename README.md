@@ -35,11 +35,32 @@ To. Reviewers
 ## 주차 별 문제풀이 
 https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/22648
  
-### Week 01 (25.01.20 ~ 25.01.27)
+### Week 01 (25.01.20 ~ 25.01.26)
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 구현 |  <a href="https://www.acmicpc.net/problem/2578">빙고</a> | <a href="">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/22856">트리 순회</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/10844">쉬운 계단 수</a> | <a href="">🔗</a> |
 | DP |  <a href="https://www.acmicpc.net/problem/9465">스티커</a> | <a href="">🔗</a> |
+<br>
+
+
+
+### Week 02 (25.01.27 ~ 25.02.02)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| DP |  <a href="https://www.acmicpc.net/problem/1309">동물원</a> | <a href="">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/11049">행렬 곱셈 순서</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/21608">상어 초등학교</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/1629">곱셈</a> | <a href="">🔗</a> |
+<br>
+
+
+### Week 03 (25.02.03 ~ 25.02.09)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1931">회의실 배정</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/16236">아기상어</a> | <a href="">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/15649">N과 M (1)</a> | <a href="">🔗</a> |
+| Dp |  <a href="https://www.acmicpc.net/problem/2629">양팔저울</a> | <a href="">🔗</a> |
 <br>

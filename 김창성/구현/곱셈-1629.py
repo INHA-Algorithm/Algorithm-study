@@ -12,7 +12,7 @@
 
 #풀이
 # A**B == A**(B/2)*A**(B/2)
-# (A*B)%C == A%C * B%C  
+# (A*B)%C == (A%C * B%C) % C  
 
 
 def square(A,B,C):

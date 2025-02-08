@@ -20,7 +20,7 @@
 #풀이
 # 1.먹을 수 있는 물고기 위치 찾기
 # 2.이동, 크기가 큰 물고기 고려해서
-# 3.상어 크기 count
+# 3.상어 크기, 총 이동 횟수
 
 from collections import deque
 

@@ -65,5 +65,19 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 구현 |  <a href="https://www.acmicpc.net/problem/15649">N과 M (1)</a> | <a href="">🔗</a> |
 | Dp |  <a href="https://www.acmicpc.net/problem/2629">양팔저울</a> | <a href="">🔗</a> |
 <br>
-=======
 
+### Week 04 (25.02.10 ~ 25.02.16)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/5872">택배 배송</a> | <a href="https://www.acmicpc.net/problem/5972">🔗</a> |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/1865">웜홀</a> | <a href="https://www.acmicpc.net/problem/1865">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/1254">펠린드롬 만들기</a> | <a href="https://www.acmicpc.net/problem/1254">🔗</a> |
+| 문자열 |  <a href="https://www.acmicpc.net/problem/20210">파일 탐색기</a> | <a href="https://www.acmicpc.net/problem/20210">🔗</a> 
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 최단 경로 |  <a href="https://www.acmicpc.net/problem/9376">탈옥</a> | <a href="https://www.acmicpc.net/problem/9376">🔗</a> |
+
+<br>

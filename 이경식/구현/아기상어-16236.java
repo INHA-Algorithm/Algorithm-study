@@ -1,6 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.sql.Array;
 import java.util.*;
 
 public class Main {
@@ -37,7 +36,7 @@ public class Main {
             q.add(new Point(babyShark.x, babyShark.y,0));
             check[babyShark.x][babyShark.y] = true;
 
-            ArrayList<Point> fishList = new ArrayList<>();
+            PriorityQueue<Point> pq = new PriorityQueue<>();
             int distance = Integer.MAX_VALUE;
 
             while (!q.isEmpty()) {
@@ -62,30 +61,25 @@ public class Main {
                     if (space[next_x][next_y] > 0 && space[next_x][next_y] < babySharkSize) {
                         if (now.dist + 1 < distance) {
                             distance = now.dist + 1;
-                            fishList = new ArrayList<>();
-                            fishList.add(new Point(next_x, next_y, distance));
+                            pq = new PriorityQueue<>();
+                            pq.add(new Point(next_x, next_y, distance));
                         } else if (now.dist + 1 == distance) {
-                            fishList.add(new Point(next_x, next_y, distance));
+                            pq.add(new Point(next_x, next_y, distance));
                         }
                     }
                 }
             }
 
-            if (!fishList.isEmpty()) {
-                fishList.sort(Comparator.comparingInt(
-                        (Point p) -> p.x
-                ).thenComparingInt(p -> p.y));
-            }
-
-            Point fish = fishList.isEmpty() ? null : fishList.get(0);
+            Point fish = pq.isEmpty() ? null : pq.peek();
 
             if (fish == null) break;
-
+            
             totalTime += fish.dist;
+
             babyShark = new Point(fish.x, fish.y, 0);
             space[fish.x][fish.y] = 0;
-            cnt++;
 
+            cnt++;
             if (cnt == babySharkSize) {
                 babySharkSize++;
                 cnt = 0;
@@ -96,7 +90,7 @@ public class Main {
     }
 
 
-    static class Point {
+    static class Point implements Comparable<Point> {
         int x;
         int y;
         int dist;
@@ -105,6 +99,27 @@ public class Main {
             this.x = x;
             this.y = y;
             this.dist = dist;
+        }
+
+        @Override
+        public int compareTo(Point p) {
+            if (this.dist > p.dist) {
+                return 1;
+            } else if (this.dist == p.dist) {
+                if (this.x > p.x) {
+                    return 1;
+                } else if (this.x == p.x) {
+                    if (this.y > p.y) {
+                        return 1;
+                    } else {
+                        return -1;
+                    }
+                } else {
+                    return -1;
+                }
+            } else {
+                return -1;
+            }
         }
     }
 }

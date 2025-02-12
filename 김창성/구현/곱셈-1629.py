@@ -14,7 +14,6 @@
 # A**B == A**(B/2)*A**(B/2)
 # (A*B)%C == A%C * B%C  
 
-
 def square(A,B,C):
     if B == 1:
         return A%C

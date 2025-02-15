@@ -12,10 +12,7 @@
 #출력
 # 구슬의 무게를 확인할 수 있으면 Y, 없으면 N 출력
 
-#풀이
-# 추의 무게가 1, 4 있을 때 앞 추에 더하거나 뺄 수 있음
-# 1, abs(-1)
-# 4, abs(-4), 1+4, abs(1-4)
+
 
 def dp(N, weights, totalWeight, marble):
     balance = [False]*40001

@@ -1,5 +1,5 @@
 #제한
-# 1초, 메모리 512,000,000
+# 1초, 메모리 128,000,000
 
 #문제
 # 1에서 N헛간을 갈 때, 필요한 최소 여물을 구해라
@@ -14,25 +14,40 @@
 # 최소 여물을 출력
 
 #풀이
-# 플로이드 워셜 알고리즘 - 거쳐가는 경로 중 최단 경로로 업데이트
+# 다익스트라 알고리즘
+# 1. 출발점에서 근접 노드 비용 업데이트
+# 2. 방문하지 않은 노드 중 인접한 노드중 비용이 작은 거리부터 계산 업데이트
 
-def findmin(N, array):
+import heapq
 
-    for k in range (1,N+1): #거쳐가는 노드
-        for i in range (1,N+1): #시작 노드
-            for j in range (1,N+1): #도착 노드
-                if(array[i][k] != 10001 and array[k][j] != 10001):
-                    array[i][j] = min(array[i][j], array[i][k] + array[k][j]) 
+def findmin(N, graph, start):
+    dis = [1001*N]*(N+1) #모든 노드를 거쳐가는 비용을 합쳤으니까 1001으로 초기화하면 안됨
+    dis[start] = 0
 
-    return array[1][N]
+    que = []
+    heapq.heappush(que,(0,start)) #비용을 먼저 넣어야 최소비용부터 pop
+
+    while que:
+        current_cost,  current = heapq.heappop(que)
+
+        if current_cost > dis[current]: #힙에서 최소비용이 아닌거 꺼내면 패스
+            continue 
+
+        for next, next_cost in graph[current]:
+            new_cost = next_cost + current_cost #주의
+            if dis[next] > new_cost:
+                dis[next] = new_cost
+                heapq.heappush(que,(new_cost,next))
+    
+    return dis[N]
 
 if __name__ == "__main__":
     N, M = map(int,input().split())
-    array = [[10001]*(N+1) for _ in range(N+1)]
+    graph = [[] for _ in range(N+1)]
 
     for _ in range(M):
         i, j, c = map(int,input().split())
-        array[i][j] = c
-        array[j][i] = c
-    
-    print(findmin(N, array))
+        graph[i].append((j,c))
+        graph[j].append((i,c))
+
+    print(findmin(N, graph, 1))

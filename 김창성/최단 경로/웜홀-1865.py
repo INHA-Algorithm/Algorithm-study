@@ -18,8 +18,8 @@
 # 시간이 줄어들면서 출발 위치로 돌아오는 것이 가능하면 YES, 아니면 NO 출력
 
 #풀이
-# 플로이드 워셜 알고리즘 - 거쳐가는 경로 중 최단 경로로 업데이트 -> 시간 초과 n^3 -> X
-# 벨만 포드 알고리즘 ->
+# 플로이드 워셜 알고리즘 - 모든 노드에서의 특정노드까지 최단 경로로 업데이트 n^3 -> 시간 초과 
+# 벨만 포드 알고리즘 - 하나의 노드에서 특정노드까지(음수 존재하는) 최단 경로 구하기 -> NM 
 
 
 def checkTime(N, road):
@@ -28,8 +28,7 @@ def checkTime(N, road):
 
     for i in range (N): #각 노드 간 최단거리 구하기
         for s, e, t in road:
-            if dis[e] > dis[s] + t:
-                dis[e] = dis[s] + t
+            dis[e] = min(dis[e], dis[s] + t)
                 
     for s, e, t in road: #N번 반복 후에도 업데이트가 이루어진다면 음수가 존재
         if dis[e] > dis[s] + t:

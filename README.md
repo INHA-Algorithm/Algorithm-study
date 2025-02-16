@@ -81,3 +81,18 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 최단 경로 |  <a href="https://www.acmicpc.net/problem/9376">탈옥</a> | <a href="https://www.acmicpc.net/problem/9376">🔗</a> |
 
 <br>
+
+
+### Week 05 (25.02.17 ~ 25.02.23)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 이분 탐색 |  <a href="https://www.acmicpc.net/problem/2805">나무 자르기</a> | <a href="https://www.acmicpc.net/problem/2805">🔗</a> |
+| 이분 탐색 |  <a href="https://www.acmicpc.net/problem/22345">누적 거리</a> | <a href="https://www.acmicpc.net/problem/22345">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/1138">한 줄로 서기</a> | <a href="https://www.acmicpc.net/problem/1138">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/15685">드래곤 커브</a> | <a href="https://www.acmicpc.net/problem/15685">🔗</a> 
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 세그먼트 트리 |  <a href="https://www.acmicpc.net/problem/2042">구간 합 구하기</a> | <a href="https://www.acmicpc.net/problem/2042">🔗</a> |

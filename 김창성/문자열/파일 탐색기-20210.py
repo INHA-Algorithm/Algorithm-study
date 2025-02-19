@@ -39,7 +39,8 @@ def comparator(a, b):
             if x.isdigit() and y.isdigit():
                 #print("둘다 숫자")
                 if int(x) == int(y):
-                    return return_value(len(x),len(y))
+                    return return_value(len(x) - len(x.lstrip('0')),len(y) - len(y.lstrip('0')))
+                                                #0 제거해서 비교
                 else:
                     return return_value(int(x),int(y))
             elif x.isdigit() != y.isdigit(): #하나라도 숫자가 아닐때
@@ -49,7 +50,7 @@ def comparator(a, b):
                     return return_value(x, y)
                 return return_value(x.lower(), y.lower())
 
-    #return return_value(len(parsed_a),len(parsed_b))
+    return return_value(len(parsed_a),len(parsed_b))
     # -1 a가 앞에  1 b가 앞에, 순서 유지
     
 

@@ -91,8 +91,22 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 구현 |  <a href="https://www.acmicpc.net/problem/1138">한 줄로 서기</a> | <a href="https://www.acmicpc.net/problem/1138">🔗</a> |
 | 구현 |  <a href="https://www.acmicpc.net/problem/15685">드래곤 커브</a> | <a href="https://www.acmicpc.net/problem/15685">🔗</a> 
 
-
 도전 문제(**필수 아님**)
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | 세그먼트 트리 |  <a href="https://www.acmicpc.net/problem/2042">구간 합 구하기</a> | <a href="https://www.acmicpc.net/problem/2042">🔗</a> |
+<br>
+
+### Week 06 (25.02.24 ~ 25.03.02)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 분할정복 |  <a href="https://www.acmicpc.net/problem/1780">종이의 개수</a> | <a href="https://www.acmicpc.net/problem/1780">🔗</a> |
+| 세그먼트 트리 |  <a href="https://www.acmicpc.net/problem/2042">구간 합 구하기</a> | <a href="https://www.acmicpc.net/problem/2042">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1080">행렬</a> | <a href="https://www.acmicpc.net/problem/1080">🔗</a> |
+| 그리디 |  <a href="https://www.acmicpc.net/problem/1437">수 분해</a> | <a href="https://www.acmicpc.net/problem/1437">🔗</a> 
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| DP |  <a href="https://www.acmicpc.net/problem/2098">외판원 순회</a> | <a href="https://www.acmicpc.net/problem/2098">🔗</a> |

@@ -10,9 +10,36 @@
 #입력
 # 1 ≤ 드래곤 커브 개수 N ≤ 20
 # 0 ≤ 좌표 x, y ≤ 100
-# 0 (x좌표 +1), 1 (y좌표 +1), 2 (x좌표 -1), 3 (y좌표 -1)
+# d = 0 (-> x좌표 +1), 1 (^ y좌표 -1), 2 (<- x좌표 -1), 3 (v y좌표 +1)
 # 0 ≤ 세대 g ≤ 10
 
 #출력
 # 1 x 1 정사각형의 네 꼭짓점 드래곤 커브의 일부인 것의 개수
 
+if __name__ == "__main__":
+    N = int(input())
+    array = [[0]*101 for _ in range(101)]
+    # d=0 (x+1), d=1 (y-1), d=2 (x-1), d=3 (y+1)
+    dy = [0,-1,0,1] 
+    dx = [1,0,-1,0] 
+
+    for _ in range(N):
+        x, y, d, g = map(int, input().split())
+        array[y][x] = 1 #시작
+        curve = [d]
+
+        for _ in range(g): #이동방향 추가
+            for i in range(len(curve)-1,-1,-1):
+                curve.append((curve[i]+1)%4)
+        
+        for i in curve:
+            x, y = x + dx[i], y + dy[i]
+            array[y][x] = 1
+
+    result = 0
+    for i in range(100):
+        for j in range(100):
+            if array[i][j] and array[i+1][j] and array[i][j+1] and array[i+1][j+1]:
+                result += 1
+    print(result)
+            

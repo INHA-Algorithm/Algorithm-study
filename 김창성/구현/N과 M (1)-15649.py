@@ -29,6 +29,8 @@ def backTracking(array,N,M):
 
 
 if __name__ == "__main__":
+    
+
     N, M = map(int,input().split())
     array = []
 

@@ -34,6 +34,15 @@ To. Reviewers
  
 ## 주차 별 문제풀이 
 https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/22648
+https://github.com/DKU-D-Coding/Algorithm-Level-1
+https://github.com/DKU-D-Coding/Algorithm-Level-2
+https://github.com/DKU-D-Coding/Algorithm-Level-3
+https://github.com/DKU-D-Coding/Algorithm-Level-4
+
+
+<br><br>
+
+ ---
  
 ### Week 01 (25.01.20 ~ 25.01.26)
 | Category | Title | Link |
@@ -44,7 +53,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | DP |  <a href="https://www.acmicpc.net/problem/9465">스티커</a> | <a href="">🔗</a> |
 <br>
 
-
+---
 
 ### Week 02 (25.01.27 ~ 25.02.02)
 | Category | Title | Link |
@@ -55,6 +64,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 구현 |  <a href="https://www.acmicpc.net/problem/1629">곱셈</a> | <a href="">🔗</a> |
 <br>
 
+---
 
 
 ### Week 03 (25.02.03 ~ 25.02.09)
@@ -65,6 +75,8 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | 구현 |  <a href="https://www.acmicpc.net/problem/15649">N과 M (1)</a> | <a href="">🔗</a> |
 | Dp |  <a href="https://www.acmicpc.net/problem/2629">양팔저울</a> | <a href="">🔗</a> |
 <br>
+
+---
 
 ### Week 04 (25.02.10 ~ 25.02.16)
 | Category | Title | Link |
@@ -82,6 +94,7 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 
 <br>
 
+---
 
 ### Week 05 (25.02.17 ~ 25.02.23)
 | Category | Title | Link |
@@ -110,3 +123,26 @@ https://github.com/tony9402/baekjoon &&  https://www.acmicpc.net/group/workbook/
 | Category | Title | Link |
 | :------: | :---: | :--: |
 | DP |  <a href="https://www.acmicpc.net/problem/2098">외판원 순회</a> | <a href="https://www.acmicpc.net/problem/2098">🔗</a> |
+
+
+<br>
+
+---
+
+### Week 07 (25.03.03 ~ 25.03.09)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 구현 |  <a href="https://www.acmicpc.net/problem/17822">원판 돌리기</a> | <a href="https://www.acmicpc.net/problem/17822">🔗</a> |
+| 구현 |  <a href="https://www.acmicpc.net/problem/20056">마법사 상어와 파이어볼</a> | <a href="https://www.acmicpc.net/problem/20056">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/15724">주지수</a> | <a href="https://www.acmicpc.net/problem/15724">🔗</a> |
+| DP |  <a href="https://www.acmicpc.net/problem/1823">수확</a> | <a href="https://www.acmicpc.net/problem/1823">🔗</a> 
+
+
+도전 문제(**필수 아님**)
+| Category | Title | Link |
+| :------: | :---: | :--: |
+| 트라이 |  <a href="https://www.acmicpc.net/problem/19585">전설</a> | <a href="https://www.acmicpc.net/problem/19585">🔗</a> |
+
+
+<br>
+---

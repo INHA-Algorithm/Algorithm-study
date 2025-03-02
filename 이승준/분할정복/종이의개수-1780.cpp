@@ -76,3 +76,16 @@ void solve(int y, int x, int size) {
         }
     }
 }
+//void update(int node, int index, int left, int right, int diff) {
+//    if (index < left || index > right)return;
+//
+//    if (left != right) {
+//        tree[node] += diff;
+//        int mid = (left + right) / 2;
+//        update(node * 2, index, left, mid, diff);
+//        update(node * 2 + 1, index, mid + 1, right, diff);
+//    } else if (left == right) {
+//        if (left == index)tree[node] += diff;
+//        return;
+//    }
+//}
